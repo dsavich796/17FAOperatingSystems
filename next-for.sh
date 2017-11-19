@@ -1,4 +1,4 @@
-for pics in $(find ~/Pictures -name .jpg )
+for pics in $( find ~/Pictures -name "*".png )
 do
-	cp $pics /Documents
-done  
+	cp $pics ~/Documents
+done
